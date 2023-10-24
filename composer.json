@@ -1,5 +1,5 @@
 {
-    "name": "sheadawson/silverstripe-shortcodable",
+    "name": "mademedia/silverstripe-shortcodable",
     "type": "silverstripe-module",
     "description": "Provides a GUI for CMS users to insert Shortcodes into the HTMLEditorField + an API for developers to define Shortcodable DataObjects and Views",
     "keywords": [
@@ -18,10 +18,10 @@
         "silverstripe/framework": ">=3.1"
     },
     "support": {
-        "issues": "https://github.com/sheadawson/silverstripe-shortcodable/issues"
+        "issues": "https://github.com/MadeHQ/silverstripe-shortcodable/issues"
     },
     "extra": {
         "installer-name": "shortcodable"
     },
-    "homepage": "https://github.com/sheadawson/silverstripe-shortcodable"
+    "homepage": "https://github.com/MadeHQ/silverstripe-shortcodable"
 }
