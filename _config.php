@@ -4,13 +4,6 @@ use SilverStripe\Core\Config\Config;
 use SilverStripe\Forms\HTMLEditor\HtmlEditorConfig;
 use Silverstripe\Shortcodable;
 
-if (!defined('SHORTCODABLE_DIR')) {
-    define('SHORTCODABLE_DIR', rtrim(basename(dirname(__FILE__))));
-}
-if (SHORTCODABLE_DIR != 'shortcodable') {
-    throw new \Exception('The edit shortcodable module is not installed in correct directory. The directory should be named "shortcodable"');
-}
-
 // enable shortcodable buttons and add to HtmlEditorConfig
 $htmlEditorNames = Config::inst()->get(Shortcodable::class, 'htmleditor_names');
 if (is_array($htmlEditorNames)) {
